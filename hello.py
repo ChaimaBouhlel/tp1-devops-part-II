@@ -1,11 +1,7 @@
 def calculate_sum_of_array(arr):
     try:
-        # Convert input to a list of integers
-        int_arr = [int(x) for x in arr]
-        
-        # Calculate the sum of the elements
+        int_arr = [int(x) for x in arr]        
         array_sum = sum(int_arr)
-        
         return array_sum
     except ValueError:
         print("Error: Please enter valid integers in the array.")
